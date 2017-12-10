@@ -6,7 +6,9 @@ This is an experiment about disconnecting clients from a wireless access point (
 
 1. [NodeMCU](http://nodemcu.com/) ESP-12E (ESP8266)  
 1. [ESP-01](http://espressif.com/en/products/hardware/esp8266ex/overview) (ESP8266)  
-1. Low dropout voltage regulator 3.3V ([AMS1117](http://www.advanced-monolithic.com/pdf/ds1117.pdf))   
+1. Low dropout voltage regulator 3.3V ([AMS1117](http://www.advanced-monolithic.com/pdf/ds1117.pdf))
+
+![Equipment](images/equip.jpeg)
 
 ## Setting up the Environment
 
@@ -40,10 +42,6 @@ It is impossible to send manage frames (with `wifi_send_pkt_freedom()`) of any t
 | GND    | GND     |
 | CH_PD  | Vout    |
 | Vcc    | Vout    |
-
-![NodeMCU ESP-12E](images/mcu.jpg)
-![ESP-01](images/esp8266.jpg)
-![AMS1117 3.3v](images/ams1117.jpg)
 
 ## References
 
